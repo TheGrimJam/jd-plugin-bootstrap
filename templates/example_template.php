@@ -1,0 +1,1 @@
+<h1> This is the example shortcode in the jam plugin template </h1>
