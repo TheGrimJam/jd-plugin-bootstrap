@@ -1,0 +1,75 @@
+#wp-admin-bar-comments,
+#wp-admin-bar-updates{
+  display:none;
+}
+
+
+
+/* Highlights for front end editor options */
+.logged-in *[data-live-edit-id]:hover {
+    border: 2px solid red;
+}
+
+.live-edit-area {
+  position: relative;
+}
+
+.post-edit-button a {
+  z-index:5;
+}
+.live-edit-area { position: relative; } #carousel-slider .live-edit-button {right: 50px;top: 250px; border:2px solid blue;}#section-about .live-edit-button {
+  right:-50px;
+} #footer-contact a.live-edit-button {
+  font-size:15px !important;
+  color:black !important;
+} #footer-social a.live-edit-button,
+footer #wrapper a.live-edit-button {
+  position: absolute !important;
+  border-radius:3px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  line-height: initial;
+  right: -30px;
+  color: #555555;
+}
+
+footer *[data-live-edit-id] {
+  border:1px solid transparent;
+}
+footer *[data-live-edit-id]:hover {
+  border:1px dotted red;
+}
+
+.about-us-edit {
+  top: -20px;
+  margin-right: 100px;
+  border:1px dotted red;
+  display:inline-block;
+  width:auto;
+  float:right;
+  padding:5px;
+  background:white;
+  border-radius:5px;
+}
+
+.post-edit-button {
+  position:relative;
+}
+
+.post-edit-button a{
+      position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    color: #555555;
+    font-size: 14px;
+    line-height: 1;
+    padding: 9px 14px;
+    background: #F7F7F7;
+    border: #CCCCCC solid 1px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    z-index: 9;
+}

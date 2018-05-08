@@ -1,1 +1,7 @@
-<h1> This is the example shortcode in the jam plugin template </h1>
+<?php 
+
+echo "Template";
+
+?>
+
+<h2> Banana </h2>
